@@ -1,11 +1,15 @@
 body.active_admin {
+   #header{
+     background: -webkit-linear-gradient(-90deg, #6a7176, #ff0000);
+   }
+
    #page_title {
        position: relative;
    }
    #page_title:before {
-       content: "Development - ";
+       content: "Production - ";
        padding-left: 40px;
-       color: #5e6469;
+       color: #ff6600;
    }
    #page_title:after {
        position: absolute;
@@ -17,7 +21,7 @@ body.active_admin {
        -webkit-border-radius: 100%;
        -moz-border-radius: 100%;
        border-radius: 100%;
-       background: #5e6469;
+       background: #ff6600;
        content: "!";
        color: #ffffff;
        text-align: center;

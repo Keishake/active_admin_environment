@@ -1,5 +1,9 @@
 require "active_admin_environment/version"
 
 module ActiveAdminEnvironment
-  # Your code goes here...
+  class Railtie < ::Rails::Railtie
+    config.after_initialize do
+
+    end
+  end
 end

@@ -16,6 +16,10 @@ Or install it yourself as:
 
     $ gem install active_admin_environment
 
+After installed gem, execute:
+
+    $ rails generate active_admin_environment:install
+
 ## Usage
 
 TODO: Write usage instructions here

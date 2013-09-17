@@ -9,7 +9,7 @@ module ActiveAdminEnvironment
 
       def copy_css_files
         %w(development staging production).each do |e|
-          template "active_admin_#{e}.css.scss", "app/assets/stylesheets/active_admin_#{e}.rb"
+          template "active_admin_#{e}.css.scss", "app/assets/stylesheets/active_admin_#{e}.css.scss"
         end
       end
 

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["keishake0925@gmail.com"]
   spec.description   = %q{Change ActiveAdmin page style by environment}
   spec.summary       = %q{Change ActiveAdmin page style by environment}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/Keishake/active_admin_environment"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'activeadmin', '>= 0.4.4'
+  spec.add_dependency "railties", ">= 3.1"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"

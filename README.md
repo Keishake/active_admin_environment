@@ -1,20 +1,14 @@
 # ActiveAdminEnvironment
 
-TODO: Write a gem description
+Change AcitiveAdmin appearance by rails environment.
+
+![alt tag](/images/production.png)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
     gem 'active_admin_environment'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install active_admin_environment
 
 After installed gem, execute:
 

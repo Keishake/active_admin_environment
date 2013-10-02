@@ -19,7 +19,7 @@ After installed gem, execute:
 This gem is for environment named production, staging, development.
 
 development
-![alt tag](/images/development.png)
+![alt tag](/images/develop.png)
 
 staging
 ![alt tag](/images/staging.png)

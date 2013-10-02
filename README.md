@@ -16,7 +16,17 @@ After installed gem, execute:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem is for environment named production, staging, development.
+
+development
+![alt tag](/images/development.png)
+
+staging
+![alt tag](/images/staging.png)
+
+production
+![alt tag](/images/production.png)
+
 
 ## Contributing
 

@@ -1,3 +1,4 @@
+require 'rails/generators'
 module ActiveAdminEnvironment
   module Generators
     class Base < ::Rails::Generators::Base

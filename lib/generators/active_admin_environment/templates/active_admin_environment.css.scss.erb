@@ -1,15 +1,15 @@
 body.active_admin {
    #header{
-     background: -webkit-linear-gradient(-90deg, #6a7176, #ff0000);
+     background: -webkit-linear-gradient(-90deg, #6a7176, <%= @color %>);
    }
 
    #page_title {
        position: relative;
    }
    #page_title:before {
-       content: "Production - ";
+       content: "<%= @env %> - ";
        padding-left: 40px;
-       color: #ff6600;
+       color: <%= @color %>;
    }
    #page_title:after {
        position: absolute;
@@ -21,7 +21,7 @@ body.active_admin {
        -webkit-border-radius: 100%;
        -moz-border-radius: 100%;
        border-radius: 100%;
-       background: #ff6600;
+       background: <%= @color %>;
        content: "!";
        color: #ffffff;
        text-align: center;
@@ -30,3 +30,4 @@ body.active_admin {
        font-size: 24px
    }
 }
+

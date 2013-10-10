@@ -14,19 +14,31 @@ After installed gem, execute:
 
     $ rails generate active_admin_environment:install
 
+Generating default css and initializers:
+
+    app/assets/stylesheets/active_admin_environment
+    ├── development.css.scss
+    └── production.css.scss
+    config/initializers
+    └── active_admin_environment.rb
+
 ## Usage
 
-This gem is for environment named production, staging, development.
+This gem is for environment named production, development.
 
 development
 ![alt tag](/images/develop.png)
 
-staging
-![alt tag](/images/staging.png)
-
 production
 ![alt tag](/images/production.png)
 
+### Change color or add different environment
+
+Edit initializer (config/initializers/active_admin_environment.rb)
+
+Execute bellow to regenerate css files :
+
+    $ rails generate active_admin_environment:css
 
 ## Contributing
 
@@ -35,3 +47,4 @@ production
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+

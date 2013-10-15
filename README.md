@@ -1,5 +1,7 @@
 # ActiveAdminEnvironment
 
+[![Build Status](https://travis-ci.org/Keishake/active_admin_environment.png)](https://travis-ci.org/Keishake/active_admin_environment)
+
 Change AcitiveAdmin appearance by rails environment.
 
 ![alt tag](/images/production.png)

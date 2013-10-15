@@ -36,7 +36,7 @@ production
 
 Edit initializer (config/initializers/active_admin_environment.rb)
 
-Execute bellow to regenerate css files :
+Then execute bellow to regenerate css files :
 
     $ rails generate active_admin_environment:css
 
